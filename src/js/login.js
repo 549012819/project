@@ -1,0 +1,22 @@
+require(['config'],function(){
+	require(['jquery'],function(){
+		$('#btnReg').on('click',function(){
+			$.ajax({
+				url:'../api/reg.php',
+				data:{
+					username:$('#username').val(),
+					password:$('#password').val()
+				},
+				success:function(res){
+					console.log(res);
+					if(res === 'ok'){
+						alert('注册成功')
+						window.location.href='http://localhost/h6/html/denglu.html';
+					}else{
+						alert('用户名已存在')
+					}
+				}
+			});
+		});
+	});
+});

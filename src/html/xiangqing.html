@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>详情</title>
+	<link rel="stylesheet" href="../css/gongyou.css">
+	<link rel="stylesheet" type="text/css" href="../css/xiangqing.css">
+	<!-- <script src="../js/shouye.js"></script> -->
+	<script src="../lib/jquery-3.2.1.js"></script>
+	<script src="../js/require.js" data-main="../js/xiangqing.js"></script>
+	<!-- <script src="../lib/jquery-gdszoom/jquery.gdszoom.js"></script>
+	<script src="../js/xiangqing.js"></script> -->
+</head>
+<body>
+<div class="box1">
+		<!-- 顶部 -->
+	<div id="header">
+		<div class="top">
+			<div class="wrap">
+				<div class="top_left">
+					欢迎来到速普商城！ 请 [<a href="denglu.html" target="_blank">登录</a>] [<a href="zhuce.html" target="_blank">免费注册</a>]
+					<br class="clear">
+				</div>
+				<div class="top_right">
+					<div class="li_box">
+						<div class="top_a">
+							<a href="#" target="_blank">消费者告知书</a>
+						</div>
+					</div>
+					<div class="li_box">
+						<div class="top_a">
+							<a href="#" target="_blank">我的订单</a>
+						</div>
+					</div>
+					<div class="li_box">
+						<div class="top_a top_b">
+							<a href="#" target="_blank">我的速普
+							<span></span>
+							</a>	
+						</div>
+						<div id="user_con" class="user_con">
+							<ul>
+								<li>
+									<a href="#" target="_blank">我的优惠劵</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">我的收藏</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">我的积分</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">现金账户</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">待评价</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="li_box">
+						<div class="top_a top_c">
+							<a href="#" target="_blank">手机端
+							<span></span>
+							</a>
+							<div id="app" class="app">
+								<ul>
+									<li>
+										<a href="#" target="_blank">
+											<img class="lazy" src="../css/img/app.jpg" alt="APP二维码">
+										</a>
+									</li>
+									<li>
+										<a href="#" target="_blank">
+											<img class="lazy" src="../css/img/erweima.jpg" alt="微信二维码">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="li_box">
+						<div class="top_a">
+							<a href="#" target="_blank">网站导航</a>
+						</div>
+					</div>
+					<div class="li_box">
+						<div class="top_a top_d">
+							<a href="#" target="_blank">400-618-0055</a>
+							<span></span>
+							<div id="service" class="service">
+								<ul>
+									<li>
+										<a href="#" target="_blank">帮助中心</a>
+									</li>
+									<li>
+										<a href="#" target="_blank">400-618-0055</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- logo -->
+	 <div class="midlle">
+	   <div class="wrap">
+		<div class="logo fl">
+			<a href="/">
+				<img class="lazy" src="../img/logo.jpg" alt="速普母婴商城LOGO" title="速普母婴商城LOGO">
+			</a>
+		</div>
+		<div class="search fl">
+			<form action="/goods/index/" method="get" name="searchform" id="searchform" class="seachinfo">
+				<div class="search_icon fl">
+					<span></span>
+				</div>
+				<input type="text" name="keywords" id="keywords" value class="fl" autocomplete="off">
+				<input type="submit" name="search_btn" id="search_btn" value="搜索">
+			</form>
+			<div class="hot">
+			    <ul>
+			    	<li>热门搜索：</li>
+			    	<li>
+			    		<a href="#" target="_blank">荷兰牛栏</a>
+			    	</li>
+			    	<li>
+			    		<a href="#" target="_blank">花王</a>
+			    	</li>
+			    	<li>
+			    		<a href="#" target="_blank">惠氏</a>
+			    	</li>
+			    	<li>
+			    		<a href="#" target="_blank">好奇</a>
+			    	</li>
+			    	<li>
+			    		<a href="#" target="_blank">新安怡</a>
+			    	</li>
+			    	<li>
+			    		<a href="#" target="_blank">嘉宝</a>
+			    	</li>
+			    </ul>		
+			</div>
+		</div>
+		<div class="cart ">
+		  <ul></ul>
+			<span></span>
+			<a href="goods.html">购物车</a>
+			<input type="text" class="hos">
+		</div>
+	</div>
+	</div>
+	<!-- 菜单 -->
+	<div class="head">
+			<!--  <div class="navCon wrap">
+				<div class="adv_right">
+					<a href="index.html">
+						 <img src="img/adv_right.jpg" alt width="100%" height="100%"> -->
+					<!-- </a> -->
+				</div>
+				<div class="heads">	
+				<div class="wrap">
+			<div class="cate">
+				<div class="navCon-cate fl">
+					<a href="#">全部商品分类</a>
+				</div>
+				<div class="catemenu">
+					<ul>
+						<li>
+							<a href="#">妈妈专区</a>
+						</li>
+						<li>
+							<a href="#">奶粉专区</a>
+						</li>
+						<li>
+							<a href="#">辅食营养</a>
+						</li>
+						<li>
+							<a href="#">尿裤湿巾</a>
+						</li>
+						<li>
+							<a href="#">喂养洗护</a>
+						</li>
+						<li>
+							<a href="#">玩具图书</a>
+						</li>
+						<li>
+							<a href="#">车床寝具</a>
+						</li>
+						<li>
+							<a href="#">婴儿服饰</a>
+						</li>
+						<li>
+							<a href="#">美食专区</a>
+						</li>
+						<li>
+							<a href="#">美妆日用</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		<div class="menu fl">
+			<ul>
+				<li>
+					<a href="#">限时特卖</a>
+				</li>
+				<li>
+					<a href="#">白菜专区</a>
+				</li>
+				<li>
+					<a href="#">全球购</a>
+				</li>
+				<li>
+					<a href="#">手机客户端
+					<span></span>
+					</a>
+				</li>
+				<li>
+					<a href="#">在线客服</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+			<!-- 内容 -->
+	<div class="mycar">
+	<div class="wrap">
+    	<div class="main_a">
+    		<a href="#">首页</a>
+    		>
+    		<a href="#">宝宝洗浴</a>
+    		> LION狮王 日本儿童卡通米奇防蛀固齿牙膏葡萄味60g
+    	</div>
+     	<div class="main_b">
+    		<!-- <div class="info">
+    			<div class="wrap">
+    				<div class="goodblock"> 
+    					<-- 左放大区 -->
+    					<!-- <div class="good_left fl"> -->
+    						<!-- 商品区 -->
+    						<!-- <div class="spec">
+    								<img src="../img/car_min.png" data-big="../img/car.jpg">
+    						</div> -->
+    						<!-- 缩图区 -->
+    							<!-- <i class="prev"></i> -->
+    							<!-- <div class="items">
+    										<img src="../img/g1.jpg" alt="">
+    										<img src="../img/g2.jpg" alt="">
+    										<img src="../img/g3.jpg" alt="">
+    										<img src="../img/g4.jpg" alt="">	
+    						</div> -->
+    					<!-- </div> -->
+    					<!-- <div class="items_a "></div> -->
+    					<!-- 价格区 -->
+    					<!-- <div class="good_mid fl">
+    					   <div class="goods">杭州保税区一号仓发货</div>
+							<div class="good_a ">
+							    <span style="color: #e5004b;">下单送洗衣皂</span>
+							    <span style="color: #ccc;margin: 0 5px;"> | </span>
+								LION狮王 日本儿童卡通防蛀牙牙膏葡萄味60G
+							</div>
+							<div class="good_b">
+								<div class="good_b_a fl">促销价</div>
+								<div class="good_b_bs"><span style=
+								"font-size:14px;">￥</span>89.9</div> -->
+								<!--  <div class="good_b_c fl"><span class="good_let" title"整点抢购">整点抢购</span>还有<span class="good_sale">1天23时45分45秒</span>结束</div> -->
+								<!-- <div class="good_b_d ">市场价</div>
+								<div class="good_b_e "><span style="text-decoration: line-through;">￥328</span>(为您节省321.8元)</div>
+								<div class="good_b_d ">促销</div>
+								<div class="good_b_f ">
+									<span>全场下单送绵心洗衣皂</span>
+									<span>加6.9送防溢乳垫12片</span>
+								</div>
+							</div>
+							<div class="good_pd">
+								<div class="good_pd_a fl">运费</div>
+								<div class="good_pd_b">
+									<div class="fl" id="sellerinfo" sellerid="101" style="line-height: 25px;margin-right: 10px;">至</div>
+									<div class="good_pd_c"> -->
+										<!-- <span class="value">北京市直辖区</span> -->
+										<!-- <input type="text" value="北京市直辖区">
+										<i></i>
+									</div>
+								</div>
+								
+							</div>
+							<div class="good_c ">
+							    <div class="good_c_a">颜色</div>
+							    <div class="good_c_b ">
+							    	<ul>
+									<li title="红色">
+									<a href="#">红色</a></li>
+									<li title="白色"><a href="#">白色</a></li>
+									<li title="蓝色"><a href="#">蓝色</a></li>
+									<li title="黑色"><a href="#">黑色</a></li>
+									<li title="绿色"><a href="#">绿色</a></li>
+								</ul>
+							    </div>
+							</div>
+							<div class="good_d ">
+							   <div class="good_d_a">购买数量</div>
+							     <div class="good_d_b">
+							            <i class="d_a">-</i> 
+										 <input type="text" value="2">
+										 <i class="d_b">+</i> 
+								  </div>
+							</div>
+							<div class="good_e">
+							   <div class="good_e_a">
+								<a href="#">加入购物车</a>
+							   </div>
+								<div class="good_e_b ">
+								<a href="#">客户端下单</a>
+							    </div>
+							</div>
+    				</div> 		 -->
+    	<!-- <div class="main_c"></div> -->
+  
+    <!--  </div>
+    </div>
+    </div> -->
+    </div> 
+    </div>
+    </div>
+	<!-- 中间部分 -->
+    <div class="tab">
+      <div class="wrap">
+      <div class="con_tent">
+      	<ul>
+    		<li>热门活动</li>
+    	</ul>
+      </div>
+    	
+    	<div class="tab_con">
+    		<a href="#">
+    			<img src="../img/40.jpg" alt="">
+    		</a>
+    		<a href="#">
+    			<img src="../img/41.jpg" alt="">
+    		</a>
+    		<a href="#">
+    			<img src="../img/42.jpg" alt="">
+    		</a>
+    		<a href="#">
+    			<img src="../img/43.jpg" alt="">
+    		</a>
+    	</div>
+    </div>
+</div>
+
+<div class="shopping">
+ <div class="wrap">
+		<div class="title">
+			<span>商品详情</span>
+			<span>商品评论</span>
+			<span>常见问题</span>
+			<span>点赞</span>
+		</div>
+		<div class="content">
+			<div class="ten_a">
+				<ul>
+					<li>
+						<span>商品名称:</span>
+                       宽口径玻璃奶瓶配L奶嘴（AA92）            
+					</li>
+					<li>
+						<span>颜色:</span>
+						黄色
+					</li>
+					<li>
+						<span>产地</span>
+						常州
+					</li>
+					<li>
+						<span>规格</span>
+						240ml
+					</li>
+				</ul>
+				<div class="ten_b">
+					<img src="../img/nytz3.jpg" alt="">
+					<img src="../img/nytz4.jpg" alt="">
+					<img src="../img/nytz5.jpg" alt="">
+					<img src="../img/nytz1.jpg" alt="">
+					<img src="../img/nytz4.jpg" alt="">
+					<img src="../img/nytz5.jpg" alt="">
+				    <img src="../img/nytz2.jpg" alt="">
+					<img src="../img/nytz3.jpg" alt="">
+					<img src="../img/nytz4.jpg" alt="">
+					<img src="../img/nytz5.jpg" alt="">
+					<img src="../img/nytz2.jpg" alt="">
+					<img src="../img/nytz4.jpg" alt="">
+				</div>	
+			</div>
+
+			<div>
+			        <img src="../img/40.jpg" alt="">
+					<img src="../img/41.jpg" alt="">
+					<img src="../img/42.jpg" alt="">
+					<img src="../img/43.jpg" alt="">
+					<img src="../img/44.jpg" alt="">
+					<img src="../img/45.jpg" alt="">
+					<img src="../img/46.jpg" alt="">
+					<img src="../img/47.jpg" alt="">
+					<img src="../img/41.jpg" alt="">
+					<img src="../img/42.jpg" alt="">
+					</div>
+			<div>
+			        <img src="../img/nytz1.jpg" alt="">
+					<img src="../img/nytz2.jpg" alt="">
+					<img src="../img/nytz3.jpg" alt="">
+					<img src="../img/nytz4.jpg" alt="">
+					<img src="../img/nytz5.jpg" alt="">
+					<img src="../img/nytz1.jpg" alt="">
+					<img src="../img/nytz2.jpg" alt="">
+					<img src="../img/nytz3.jpg" alt="">
+					<img src="../img/nytz4.jpg" alt="">
+					<img src="../img/nytz5.jpg" alt="">
+					<img src="../img/nytz1.jpg" alt="">
+					<img src="../img/nytz2.jpg" alt="">
+					<img src="../img/43.jpg" alt="">
+					<img src="../img/44.jpg" alt="">
+					</div>
+			<div>
+			        <img src="../img/a1.jpg" alt="">
+					<img src="../img/a2.jpg" alt="">
+					<img src="../img/40.jpg" alt="">
+					<img src="../img/41.jpg" alt="">
+					</div>
+		</div>
+	</div>
+</div>
+    <!-- 底部 -->
+    <div id="footer">
+    	<div class="cult">
+    		<div class="wrap">
+    			<div class="cult_img fl">
+    				<img src="../img/point1.png" alt="">
+    			</div>
+    			<div class="cult_img fl">
+    				<img src="../img/point2.png" alt="">
+    			</div>
+    			<div class="cult_img fl">
+    				<img src="../img/point3.png" alt="">
+    			</div>
+    			<div class="cult_img fl">
+    				<img src="../img/point4.png" alt="">
+    			</div>
+    		</div>
+    	</div>
+    	<div class="footer_nav">
+    		<div class="wrap">
+    		  <div class="footer_nav_ul fl">
+    		   <h3>新手指南</h3>
+    			<ul>
+                    <li><a href="http://www.supumall.com/Helper/helpShopping" target="_blank">购物流程</a> </li>
+                    <li><a href="http://www.supumall.com/Helper/helpMembersShow" target="_blank">会员介绍</a> </li>
+                    <li><a href="http://www.supumall.com/Helper/helpIntegral" target="_blank">积分制度</a> </li>
+                </ul>
+              </div>
+              <div class="footer_nav_ul fl">
+                <div class="footer_nav_ul_t">
+                    <h3>物流配送</h3>
+                </div>
+                <ul>
+                    <li>
+                       <a href="http://www.supumall.com/Helper/help_deliveryS" target="_blank">配送服务</a> 
+                    </li>
+                    <li>
+                       <a href="http://www.supumall.com/Helper/help_deliveryA" target="_blank">验货签收
+                       </a> 
+                    </li>
+                    <li>
+                       <a href="http://www.supumall.com/Helper/helpSupuCourier" target="_blank">速普快递
+                       </a> 
+                    </li>
+                </ul>
+            </div>
+             <div class="footer_nav_ul fl">
+                <div class="footer_nav_ul_t">
+                    <h3>支付方式</h3>
+                </div>
+                <ul>
+                    <li>
+                       <a href="http://www.supumall.com/Helper/helpPayDelivery" target="_blank">货到付款
+                       </a>
+                    </li>
+                    <li>
+                       <a href="http://www.supumall.com/Helper/helpOnlinePay" target="_blank">在线支付
+                       </a>
+                    </li>
+                    <li>
+                       <a href="http://www.supumall.com/Helper/helpCashPay" target="_blank">现金账户
+                       </a>
+                    </li>
+                </ul>
+            </div>
+              <div class="footer_nav_ul fl">
+                <div class="footer_nav_ul_t">
+                    <h3>售后服务</h3>
+                </div>
+                <ul>
+                    <li>
+                       <a href="http://www.supumall.com/Helper/helpServiceC" target="_blank">赔偿承诺
+                       </a>
+                    </li>
+                    <li>
+                       <a href="http://www.supumall.com/Helper/helpInvoice" target="_blank">发票制度
+                       </a>
+                    </li>
+                    <li>
+                       <a href="http://www.supumall.com/Helper/helpReturnPolicy" target="_blank">退货政策
+                       </a>
+                    </li>
+                </ul>
+            </div>
+             <div class="footer_nav_ul fl">
+                <div class="footer_nav_ul_t">
+                    <h3>常见问题</h3>
+                </div>
+                <ul>
+                    <li>
+                       <a href="http://www.supumall.com/Helper/helpQuestionBuy" target="_blank">购物问题
+                       </a>
+                    </li>
+                    <li>
+                       <a href="http://www.supumall.com/Helper/helpQuestionSafe" target="_blank">账户安全
+                       </a>
+                    </li>
+                </ul>
+            </div>
+              <div class="footer_nav_ul fl">
+                <div class="footer_nav_ul_t">
+                    <h3>联系我们</h3>
+                </div>
+                <ul>
+                    <li>
+                       <a href="http://www.supumall.com/Helper/helpContactUs" target="_blank">联系客服
+                       </a>
+                    </li>
+                    <li>
+                       <a href="http://www.supumall.com/Helper/helpContactUs" target="_blank">意见反馈
+                       </a>
+                    </li>
+                    <li>
+                       <a href="http://weibo.com/supuy" target="_blank">新浪微博
+                       </a>
+                    </li>
+                </ul>
+            </div>
+             <div class="footer_nav_ul fl" style="border: none;">
+                <img src="../css/img/erweima.jpg" alt="微信二维码">
+             </div>
+    	  </div>
+    	</div>
+    	<div class="footer_info">
+    	  <div class="wrap">
+    		<div class="supuy_info">
+            <ul>
+                <li>
+                     <a href="http://www.supumall.com/Helper/helpAboutUs" target="_blank">关于我们</a>
+                </li>
+                <li>
+                     <a href="http://www.supumall.com/Helper/helpJoinUs" target="_blank">人才招聘</a>
+                </li>
+                <li>
+                     <a href="http://www.supumall.com/Helper/helpContactUs" target="_blank">联系我们</a>
+                </li>
+                <li>
+                     <a href="http://www.supumall.com/Helper/helpInvestmentIn" target="_blank" style="border:none;">招商合作</a>
+                </li>
+                <li>
+                     <a href="http://www.ysys520.com" target="_blank" style="border:none;">一生一世</a>
+                </li>
+            </ul>
+            </div>
+            <div class="supuy_set">
+                Copyright © 速普商城 2010-2016 All Right Reseved 鲁 ICP 证 09059644 号
+            </div>
+          <div class="zizhi">
+            <a href="http://www.supumall.com/Helper/license" target="_blank">
+               <img src="../img/zhizhao.png" alt="营业执照公示"></a>
+             <span style="display:inline-block;position:relative;width:auto;"><a href="https://ss.knet.cn/verifyseal.dll?sn=e14041537020048086xzmw000000&amp;ct=df&amp;a=1&amp;pa=0.6623187007733611" id="kx_verify" tabindex="-1" target="_blank" kx_type="图标式" style="display:inline-block;">
+             <img src="http://rr.knet.cn/static/images/logo/cnnic.png" style="border:none;" oncontextmenu="return false;" alt="可信网站"></a></span>
+        </div>
+         </div>
+  
+   </div>
+    </div> 
+    
+   </div>
+   
+</div>
+</div>
+</body>
+</html>

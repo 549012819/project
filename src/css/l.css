@@ -1,0 +1,249 @@
+.heads{
+	height: 38px;
+    border-bottom: 2px solid #e5004a;
+    background: #fff;
+}
+// .wrap {
+//     width: 1200px;
+//     margin: 0 auto;
+// }
+.navCon-cate {
+    width: 195px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    background-color: #e5004a;
+    position: relative;
+    padding-left: 15px;
+}
+// .fl {
+//     float: left;
+// }
+.cate{
+	    background-position: 213px -108px;
+    padding-left: 15px;
+}
+.cate a {
+	text-decoration: none;
+    color: #ffffff;
+}
+.catemenu{
+	width: 208px;
+	position: absolute;
+	top:36px;
+    cursor: pointer;
+     background-color: #e5004a;
+     color: #fff;
+    border: 2px solid #e5004a;
+    border-right: none;
+    display: none;
+    // background: url(../Img/cate_menu_bottom.jpg) #e5004a no-repeat center bottom;
+    padding-bottom: 35px;
+}
+.catemenu li{
+    padding: 6px 5px 6px 15px;
+    overflow: hidden;
+    background-color: #e5004b;
+    list-style: none;
+}
+.menu{
+	    width: 986px;
+	    margin-top:-10px;
+}
+.menu ul{
+	    padding-left: 15px;
+	    overflow: hidden;
+	    list-style: none;
+}
+.menu ul li{
+	float: left;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+.menu ul li a{
+	    color: #333333;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 38px;
+    line-height: 38px;
+    text-decoration: none;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+// .heads{
+ //  height: 38px;
+ //  border-bottom: 2px solid #e5004a;
+ //  background: #fff; }
+ //  .heads .navCon {
+ //    width: 210px;
+ //    // height: 38px;
+ //    position: relative;
+ //    z-index: 8000;
+ //    background-color: #fff; }
+ //  .heads .adv_right {
+ //    position: absolute;
+ //    right: 0;
+ //    top: 40px;
+ //    width: 191px;
+ //    height: 447px;
+ //    overflow: hidden; }
+ //  .heads .cate {
+ //    width: 210px;
+ //    height: 38px;
+ //    line-height: 38px;
+ //    font-size: 14px;
+ //    background-color: #e5004a;
+ //    position: relative;
+ //    // 样式
+ //    .cateMenu{
+ //      overflow: hidden;
+ //      width: 208px;
+ //      height: 449px;
+ //      position: absolute;
+ //      left: 0px;
+ //      cursor: pointer;
+ //      border: 1px solid #e5004a;
+ //      border-right: none;
+ //      background: url(../img/cate.jpg) #e5004a no-repeat center bottom;
+ //      padding-bottom: 35px;
+ //      li{
+ //        padding: 0;
+ //        overflow: hidden;
+ //        background-color: #e5004b;
+ //        &:hover{
+ //            background-color:#fff;
+ //            a{
+ //              color: #e5004b;
+ //            }
+ //        }
+ //          .cate-tag{
+ //                width: 186px;
+ //                padding: 8px 5px 8px 15px;
+ //                overflow: hidden;
+ //                position: relative;
+ //                z-index: 10;
+ //                border-right: 2px solid #e5004b;
+ //                .first_menu{
+ //                  height: 25px;
+ //                  line-height: 25px;
+ //                  width: 172px;
+ //                  display: block;
+ //                  a{
+ //                    color:#fff;
+ //                    .icon_1d{
+ //                      display: block;
+ //                      width: 16px;
+ //                      height: 17px;
+ //                      background:url("img/1.png") no-repeat;
+ //                      // background:url("img/2.png") no-repeat;
+ //                    }
+ //                  }
+ //                   .arrow_right{
+ //                          display: block;
+ //                          width: 15px;
+ //                          height: 15px;
+ //                          // background: url("../Img/index.png");
+ //                          background-position: 192px -137px;
+ //                          margin-right: 10px;
+ //                          margin-top: -20px;
+ //                   }
+ //                }
+ //          }
+ //          .list-item{
+ //            position: absolute;
+ //            top: -1px;
+ //            left: 208px;
+ //            background: #FFF;
+ //            height: 100%;
+ //            width: 798px;
+ //            z-index: 2;
+ //            border: 2px solid #e5004b;
+ //            border-left: none;
+ //            overflow: hidden;
+ //            border-top: 1px solid #e5004b;
+ //            .itemleft{
+ //              width: 597px;
+ //              float: left;
+ //              overflow: hidden;
+ //              padding-top: 10px;
+ //              dl{
+ //                padding-left: 25px;
+ //                dt{
+ //                      float: left;
+ //                      color: #000000;
+ //                      font-size: 12px;
+ //                      font-weight: bold;
+ //                      text-indent: 0px;
+ //                      margin-bottom: 8px;
+ //                      margin-right: 5px;
+ //                      line-height: 25px;
+ //                      min-width: 47px;
+ //                }
+ //                dd{
+ //                  float: left;
+ //                  width: 460px;
+ //                  margin-left: 10px;
+ //                  white-space: nowrap;
+ //                  a{
+ //                    color: #646464;
+ //                    display: block;
+ //                    float: left;
+ //                    line-height: normal;
+ //                    margin-top: 5px;
+ //                    padding-right: 10px;
+ //                    padding-left: 10px;
+ //                    margin-bottom: 10px;
+ //                    border-left: 1px solid #cfcfcf;
+ //                    font-size: 12px;
+ //                  }
+ //                }
+ //              }
+ //            }
+ //            .itemright{
+ //              width: 200px;
+ //              float: left;
+ //              overflow: hidden;
+ //            }
+ //          }
+ //      }
+ //    }
+    
+ //  }
+ //    .heads .cate .cate_a {
+ //      background-position: 213px -108px;
+ //      padding-left: 15px; }
+ //      .head .cate .cate_a a {
+ //        color: #ffffff; }
+ //  .heads .menu {
+ //    width: 986px;
+ //  }
+ //    .heads.menu ul {
+ //      padding-left: 15px;
+ //      padding-top:-38px;
+ //      overflow: hidden;
+ //       }
+ //      .heads .menu ul li {
+ //        float: left;
+ //        height: 38px;
+ //        line-height: 38px;
+ //        text-align: center; }
+ //        .heads .menu ul li a {
+ //          color: #333333;
+ //          display: block;
+ //          font-size: 15px;
+ //          font-weight: bold;
+ //          height: 38px;
+ //          line-height: 38px;
+ //          padding: 0px 28px; }
+ //          .heads .menu ul li a:hover {
+ //            color: #e5004a; }
+ //          .heads .menu ul li a i {
+ //            display: block;
+ //            margin-top: -28px;
+ //            margin-left: 110px;
+ //            width: 14px;
+ //            height: 18px;
+ //            background: url("img/shouji.png") no-repeat; }
+ .heads{

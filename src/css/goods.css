@@ -1,0 +1,126 @@
+@charset "UTF-8";
+.choose {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc; }
+  .choose .carlist {
+    width: 100%;
+    border: 1px solid #ddd; }
+    .choose .carlist ul {
+      background: #FFFFFF;
+      padding: 10px; }
+      .choose .carlist ul li {
+        height: 150px;
+        position: relative;
+        padding: 8px 0;
+        border-bottom: 1px solid #e9e9e9; }
+        .choose .carlist ul li img {
+          position: absolute;
+          left: 50px;
+          top: 10px;
+          width: 100px;
+          display: block; }
+        .choose .carlist ul li h2 {
+          width: 320px;
+          display: block;
+          margin-left: 200px;
+          font-size: 18px;
+          color: #666; }
+          .choose .carlist ul li h2:hover {
+            color: #e5004a; }
+        .choose .carlist ul li p {
+          display: block;
+          width: 320px;
+          margin-left: 200px;
+          margin-top: 50px;
+          color: #e5400a;
+          font-family: "微软雅黑";
+          font-weight: blod; }
+        .choose .carlist ul li span {
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;
+          font-size: 16px;
+          font-family: "微软雅黑"; }
+          .choose .carlist ul li span:hover {
+            background-color: #e5004a;
+            color: #fff; }
+        .choose .carlist ul li .good_a {
+          width: 160px;
+          margin-left: 550px;
+          margin-top: -20px;
+          color: #666;
+          font-family: "微软雅黑"; }
+        .choose .carlist ul li .good_b {
+          position: absolute;
+          width: 120px;
+          left: 50px;
+          top: 100px; }
+        .choose .carlist ul li .good_c {
+          position: absolute;
+          width: 120px;
+          left: -320px;
+          top: 100px; }
+  .choose #btn {
+    width: 100px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #e5004a;
+    float: right; }
+    .choose #btn > a {
+      display: block;
+      line-height: 40px;
+      text-align: center; }
+    .choose #btn:hover {
+      background-color: #fc0;
+      color: #e5004a; }
+  .choose .mycar {
+    width: 100%;
+    height: 40px;
+    background-color: #e5004a;
+    position: relative;
+    margin-bottom: 10px; }
+    .choose .mycar h1 {
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-size: 16px;
+      color: #fff; }
+    .choose .mycar > img {
+      position: absolute;
+      top: 8px;
+      left: 10px; }
+  .choose .qjs {
+    width: 100px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #e5004a;
+    float: right;
+    margin-left: 120px; }
+    .choose .qjs > a {
+      display: block;
+      line-height: 40px;
+      text-align: center; }
+    .choose .qjs:hover {
+      background-color: #fc0;
+      color: #e5004a; }
+
+.sub {
+  overflow: hidden; }
+  .sub p {
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #e5004a; }
+
+.subprice {
+  width: 300px;
+  height: 30px;
+  margin-left: 130px;
+  margin-top: -20px;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  color: #f00; }
